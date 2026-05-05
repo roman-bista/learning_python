@@ -1,3 +1,4 @@
+# string are immutable
 # string methods 
 # name=name.strip().title().capitaize()
 

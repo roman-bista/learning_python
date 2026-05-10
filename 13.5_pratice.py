@@ -18,25 +18,66 @@
 # sub1.cal_avg()
 
 # ////////    ////    /////// /////
-class Account:
+# class Account:
 
-    def __init__(self,balance,acc_num):
-        self.balance=balance
-        self.acc_num=acc_num
+#     def __init__(self,balance,acc_num):
+#         self.balance=balance
+#         self.acc_num=acc_num
 
-    def debit(self,amount):
-        self.balance=-amount
-        print("rs",amount,"was debited")
-        print("total balance is",self.get_balance)
+#     def debit(self,amount):
+#         self.balance=-amount
+#         print("rs",amount,"was debited")
+#         print("total balance is",self.get_balance)
 
         
-    def credit(self,amount):
-        self.balance+=amount
-        print("rs",amount,"credited")
-        print("total balance is",self.get_balance)
-    def get_balance(self):
-        return self.balance
+#     def credit(self,amount):
+#         self.balance+=amount
+#         print("rs",amount,"credited")
+#         print("total balance is",self.get_balance)
+#     def get_balance(self):
+#         return self.balance
 
-acc1 = Account(100,12345)
-acc1.debit(1000)
-acc1.credit(200)
+# acc1 = Account(100,12345)
+# acc1.debit(1000)
+# acc1.credit(200)
+
+
+# class Circle:
+
+#     def __init__(self, radius):
+#         self.radius = radius
+
+#     def area(self):
+#         return 3.14 * self.radius * self.radius
+#     def perimeter(self):
+#         return 2*3.14*self.radius
+
+
+
+# c1 = Circle(4)
+
+# print(c1.area())
+# print(c1.perimeter())
+
+class Employee:
+    def __init__(self,role,salary):
+        self.role=role
+        self.salary=salary
+
+    def show(self):
+        print(self.role,self.salary)
+# e=Employee("top",12345)
+# e.show()
+
+class Engineer(Employee):
+    def __init__(self, role, salary,age,name):
+        super().__init__(role, salary)
+        self.age=age
+        self.name=name
+
+    def showdetails(self):
+        self.show()
+        print(self.age,self.name)
+
+eg=Engineer("enginner", 333333, 33, "roman")
+eg.showdetails()

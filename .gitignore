@@ -1,0 +1,165 @@
+# Professional .gitignore for Python Backend Learning
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+bin/
+include/
+lib/
+pyvenv.cfg
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+.atom/
+.project
+.pydevproject
+.settings/
+
+# Testing & Coverage
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+htmlcov/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+.DB
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+.env.*.production
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# OS Specific
+.DS_Store
+Thumbs.db
+.Trashes
+.AppleDouble
+.LSOverride
+.directory
+.netrwhist
+
+# Package managers
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+.~*
+
+# IDE Generated Files
+.pylintrc
+.flake8
+setup.cfg
+mypy.ini
+pytest.ini
+
+# Documentation builds
+docs/_build/
+site/
+
+# Distribution builds
+build/
+dist/
+*.whl
+*.egg-info/
+
+# Project specific
+data/raw/
+data/processed/
+output/
+*.csv
+*.xlsx
+*.json
+temp/
+tmp/
+
+# Development notes (optional)
+# Uncomment to ignore local notes
+# NOTES/local/
+
+# Docker
+.dockerignore
+Dockerfile
+
+# CI/CD
+.github/workflows/
+.gitlab-ci.yml
+.circleci/
+
+# Miscellaneous
+*.md~
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+__pycache__
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IPython
+.ipython/
+
+# Keep important files
+!.gitkeep
+!__init__.py

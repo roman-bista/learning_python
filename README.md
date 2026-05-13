@@ -63,7 +63,7 @@ Prepare for production backend development with FastAPI, PostgreSQL, and more.
 4. Track progress in [LEARNING_PROGRESS.md](LEARNING_PROGRESS.md)
 5. Check [NOTES/backend_resources.md](NOTES/backend_resources.md) for learning resources
 
-## 💻 Tech Stack
+## Tech Stack
 
 ### Current
 

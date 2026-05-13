@@ -35,5 +35,3 @@
 # file=open("11_file.txt","w+")
 # content=file.write("hlohlffddo")  
 # file.close()
-
- 
